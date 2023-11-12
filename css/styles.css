@@ -1,0 +1,45 @@
+:root {
+    --test-container: #819B57;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    color: var(--bakery-landing-1-background, #FAF4EA);
+    border-radius: 8px;
+    border: 2px solid #819B57;
+    background-color: #819B57;
+    cursor: pointer;
+}
+.button:hover {
+    color: #465929;
+    background-color: transparent;
+}
+
+.link {
+    color: #faf4ea;
+}
+
+.link:hover {
+    color: #819B57;
+}
+
+.hero-title {
+    color: var(--bakery-landing-1-background, #FAF4EA);
+}
+
+.hero-title .accent {
+    color: #819B57
+}
+
+.adavantages-list {
+    color: #FAF4EA;
+    background-color: #819B57;
+}
+
+.section-title {
+    color: #31261a;
+}
